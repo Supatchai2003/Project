@@ -1,9 +1,46 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="Fdu1HhdMUySkN0t_DDBV">
-    <mxGraphModel>
+    <mxGraphModel dx="708" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SAuDSehGx_opXYNq6z_b-1" value="page layout Web unwelcome creature detection system" style="swimlane;startSize=40;horizontal=1;childLayout=treeLayout;horizontalTree=0;sortEdges=1;resizable=0;containerType=tree;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="114" y="30" width="406" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-2" value="login" style="whiteSpace=wrap;html=1;" vertex="1" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry x="188" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-3" value="super admin" style="whiteSpace=wrap;html=1;" vertex="1" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry x="90" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="SAuDSehGx_opXYNq6z_b-1" source="SAuDSehGx_opXYNq6z_b-2" target="SAuDSehGx_opXYNq6z_b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;" edge="1" parent="SAuDSehGx_opXYNq6z_b-1" source="SAuDSehGx_opXYNq6z_b-5" target="SAuDSehGx_opXYNq6z_b-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-5" value="admin" style="whiteSpace=wrap;html=1;" vertex="1" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry x="286" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="SAuDSehGx_opXYNq6z_b-1" source="SAuDSehGx_opXYNq6z_b-2" target="SAuDSehGx_opXYNq6z_b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="SAuDSehGx_opXYNq6z_b-8" source="SAuDSehGx_opXYNq6z_b-3" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-8" value="Admin" style="whiteSpace=wrap;html=1;" vertex="1" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry x="20" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" target="SAuDSehGx_opXYNq6z_b-12" source="SAuDSehGx_opXYNq6z_b-3" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAuDSehGx_opXYNq6z_b-12" value="Device&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="SAuDSehGx_opXYNq6z_b-1">
+          <mxGeometry x="160" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
